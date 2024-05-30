@@ -338,6 +338,10 @@ a {
     filter: brightness(0) saturate(100%) invert(85%) sepia(7%) saturate(359%) hue-rotate(313deg) brightness(89%) contrast(87%);
 }
 
+.social-media img:hover {
+    cursor: pointer;
+}
+
 .links {
     width: 100%;
     display: flex;
