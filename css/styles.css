@@ -519,6 +519,8 @@ a {
     .header {
         padding: 24px 136px;
         box-shadow: 0 4px 52px 0 rgba(0, 0, 0, 0.2);
+        position: fixed;
+        background-color: #f1f1f1;
     }
 
     .header-logo {
