@@ -33,6 +33,10 @@ a {
     justify-content: center;
 }
 
+.header-logo:hover {
+    cursor: pointer;
+}
+
 .desktop-menu {
     display: none;
 }
