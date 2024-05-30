@@ -319,6 +319,10 @@ a {
     width: 100%;
 }
 
+.address p {
+    color: #5E5E5E;
+}
+
 .social-media {
     width: 20%;
     display: flex;
