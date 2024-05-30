@@ -271,6 +271,7 @@ a {
     width: 100%;
     height: 100%;
 }
+
 .owners-details {
     width: 100%;
     height: 100%;
@@ -282,7 +283,6 @@ a {
     font-size: 1.3rem;
     color: #111111;
     padding-bottom: 12px;
-
 }
 
 .owners-details p {
@@ -295,11 +295,83 @@ a {
 .owner-btn {
     padding: 16px 24px;
 }
+
+.footer {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 80px 32px;
+}
+
+.address-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.7rem;
+}
+
+.address {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.social-media {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) saturate(100%) invert(85%) sepia(7%) saturate(359%) hue-rotate(313deg) brightness(89%) contrast(87%);
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links1, .links2, .links3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.link span {
+    padding-right: 16px;
+    color: #DAA544;
+}
+
+.link:hover a {
+    color: #DAA544;
+    text-decoration: underline;
+}
+
+.link a {
+    color: #111111;
+}
+
 @media only screen and (min-width: 479px) {
     .owners-details h3 {
         font-size: 2.25rem;
     }
 }
+
 @media only screen and (min-width: 767px) {
 
     .header {
@@ -332,11 +404,6 @@ a {
 
     .owners {
         flex-direction: row;
-        /* padding-left: 64px; */
-    }
-
-    .owners-image {
-        /* padding: 8px; */
     }
 
     .owners-details {
@@ -350,6 +417,38 @@ a {
     .owners-details p {
         font-size: 0.9rem;
     }
+
+    .address-links {
+       flex-direction: row;
+    }
+
+    .address {
+        width: 30%;
+        padding-bottom: 0;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-weight: 800;
+    }
+
+    .links1, .links2, .links3 {
+        width: 30%;
+        padding-left: 0;
+    }
+
+    .link a {
+        font-size: 0.8rem;
+    }
+
+    .social-media {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 @media only screen and (min-width: 1020px) {
@@ -375,6 +474,10 @@ a {
     .owners-image img {
         width: 452px;
         height: 390px;
+    }
+
+    .address-links {
+        padding: 0 120px;
     }
 
 }
@@ -416,4 +519,9 @@ a {
         width: 539px;
         height: 466px;
     }
+
+    .address-links {
+        font-size: 1rem;
+    }
+
 }
