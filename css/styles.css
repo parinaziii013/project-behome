@@ -298,7 +298,7 @@ a {
     padding: 16px 24px;
 }
 
-.footer  {
+.footer {
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
@@ -348,7 +348,9 @@ a {
     width: 100%;
 }
 
-.links1, .links2, .links3 {
+.links1,
+.links2,
+.links3 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -366,7 +368,8 @@ a {
     color: #DAA544;
 }
 
-.link:hover a, .copyright-link:hover {
+.link:hover a,
+.copyright-link:hover {
     color: #DAA544;
     text-decoration: underline;
 }
@@ -447,9 +450,9 @@ a {
     }
 
     .address-links {
-       flex-direction: row;
-       padding: 120px 32px;
-       font-size: 0.8rem;
+        flex-direction: row;
+        padding: 120px 32px;
+        font-size: 0.8rem;
     }
 
     .address {
@@ -465,7 +468,9 @@ a {
         font-weight: 800;
     }
 
-    .links1, .links2, .links3 {
+    .links1,
+    .links2,
+    .links3 {
         width: 30%;
     }
 
