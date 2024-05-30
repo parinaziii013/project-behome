@@ -12,6 +12,10 @@ body {
     font-family: "Nunito Sans";
 }
 
+html {
+    scroll-behavior: smooth
+}
+
 a {
     text-decoration: none;
 }
@@ -91,7 +95,7 @@ a {
 
 .line {
     width: 60%;
-    border: 1px solid #f1f1f1;
+    border: 1px solid rgb(236, 236, 236);
 }
 
 .product-items {
@@ -300,7 +304,7 @@ a {
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
-    padding: 80px 0 80px 32px;
+    padding: 0 32px;
 }
 
 .address-links {
@@ -308,6 +312,7 @@ a {
     flex-direction: column;
     width: 100%;
     font-size: 0.7rem;
+    padding: 120px 0;
 }
 
 .address {
@@ -357,13 +362,32 @@ a {
     color: #DAA544;
 }
 
-.link:hover a {
+.link:hover a, .copyright-link:hover {
     color: #DAA544;
     text-decoration: underline;
 }
 
 .link a {
     color: #111111;
+}
+
+.footer .line {
+    width: 100%;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.copyright p {
+    color: #868686;
+    padding-top: 24px;
+    font-size: 0.9rem;
 }
 
 @media only screen and (min-width: 479px) {
@@ -418,6 +442,11 @@ a {
         font-size: 0.9rem;
     }
 
+    .footer {
+        padding: 0 40px;
+
+    }
+
     .address-links {
        flex-direction: row;
     }
@@ -436,7 +465,6 @@ a {
 
     .links1, .links2, .links3 {
         width: 30%;
-        padding-left: 0;
     }
 
     .link a {
@@ -447,6 +475,14 @@ a {
         width: 50%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .copyright {
+        flex-direction: row-reverse;
+    }
+
+    .copyright p {
+        padding-top: 0;
     }
 
 }
@@ -476,8 +512,8 @@ a {
         height: 390px;
     }
 
-    .address-links {
-        padding: 0 120px;
+    .footer {
+        padding: 0 144px;
     }
 
 }
