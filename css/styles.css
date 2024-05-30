@@ -65,7 +65,6 @@ a {
     line-height: 1;
 }
 
-
 .homepage-banner p {
     font-size: 1rem;
     color: #5E5E5E;
@@ -116,7 +115,6 @@ a {
     position: relative;
     display: flex;
     overflow: hidden;
-
 }
 
 .item-photo {
@@ -157,13 +155,11 @@ a {
 .hover-layer {
     visibility: hidden;
     transition: 0.5s;
-
 }
 
 .item-image:hover .hover-layer {
     visibility: visible;
     cursor: pointer;
-
 }
 
 .item-image:hover .item-layer {
@@ -255,7 +251,6 @@ a {
 .btn:hover {
     background-color: #DAA544;
     cursor: pointer;
-    
 }
 
 .owners {
@@ -297,7 +292,6 @@ a {
     font-size: 0.8rem;
     padding-bottom: 18px;
     line-height: 1.8;
-
 }
 
 .owner-btn {
@@ -568,7 +562,5 @@ a {
         font-size: 1rem;
         padding: 120px;
     }
-
-
 
 }
